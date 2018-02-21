@@ -26,12 +26,12 @@
 	$last = substr($date, -2);
 	echo "The last two characters are" .$last."<br>";
 	$date = explode('/', $date);
-	echo .$date. "<br>";
+	echo $date. "<br>";
 	$leapYear=false;
 	If ($year%4==0) {
-		echo .$leapYear = true .'<br>';
+		echo $leapYear = true .'<br>';
 	} else {
-		echo .$leapYear = false. '<br>';
+		echo $leapYear = false. '<br>';
 	}
 
 ?>
